@@ -7,7 +7,7 @@ const createPost = async (req, res) => {
   form.parse(req, async (err, fields, files) => {
     var oldpath = files.file[0].filepath;
     var newpath =
-      "C:/Users/nairx/myprojects/social-mern/server/images/" +
+      "C:/social-mern/server/Images/" +
       Date.now() +
       "-" +
       files.file[0].originalFilename;
